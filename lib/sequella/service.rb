@@ -53,7 +53,7 @@ module Sequella
       #
       # @param connection_uri [String] Connection URI for connecting to the database
       def establish_connection(connection_uri)
-        logger.info "Sequella connecting: #{connection_uri}"
+        logger.info "Sequella connecting....."
         ::Sequel.connect connection_uri
       end
 
