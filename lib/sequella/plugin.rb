@@ -10,7 +10,7 @@ module Sequella
     # required options in your configuration file
     config :sequella do
       uri         ''               , :desc => 'URI to the database instance. Use this or specify each piece of connection information separately below.'
-      adapter     'mysql'          , :desc => 'Database adapter. It should be an adapter supported by Sequel'
+      adapter     'mysql2'          , :desc => 'Database adapter. It should be an adapter supported by Sequel'
       database    'test'           , :desc => 'Database name'
       username    'admin'          , :desc => 'valid database username'
       password    ''               , :desc => 'valid database password'
